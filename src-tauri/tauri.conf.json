@@ -1,18 +1,18 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-nextjs-template",
+  "productName": "adoji",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.takoyakisoft.adoji",
   "build": {
-    "beforeDevCommand": "pnpm dev",
+    "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:3000",
-    "beforeBuildCommand": "pnpm build",
+    "beforeBuildCommand": "bun run build",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
-        "title": "tauri-nextjs-template",
+        "title": "adoji",
         "width": 800,
         "height": 600,
         "resizable": true,
